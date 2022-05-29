@@ -1,6 +1,10 @@
 #include <iostream>
 
 int main() {
+    int diego[10] = {1,2,3,4,5,6,7,8,9,10};
+    for(auto i : diego){
+        std::cout << i << std::endl;
+    }
     std::cout << "Hello, World!" << std::endl;
     return 0;
 }
